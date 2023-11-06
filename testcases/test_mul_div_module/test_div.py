@@ -6,7 +6,7 @@ from appium.webdriver.webdriver import By
 class TestAddSub():
     @allure.story('除法运算')
     @allure.title('[case01] 验证计算机能否正常完成除法功能')
-    def test_cases01(self,start_app,close_app):
+    def test_div(self,start_app,close_app):
         with allure.step('1、启动安卓系统中的计算机app'):
             driver = start_app
         with allure.step('2、依次按下8、*、4、='):

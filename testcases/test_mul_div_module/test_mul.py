@@ -5,8 +5,8 @@ from appium.webdriver.webdriver import By
 @allure.feature('V1.0版本')
 class TestAddSub():
     @allure.story('乘法运算')
-    @allure.title('[case01] 验证计算机能否正常完成乘法功能')
-    def test_cases01(self,start_app,close_app):
+    @allure.title('[case02] 验证计算机能否正常完成乘法功能')
+    def test_mul(self,start_app,close_app):
         with allure.step('1、启动安卓系统中的计算机app'):
             driver = start_app
         with allure.step('2、依次按下3、*、4、='):
